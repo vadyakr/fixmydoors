@@ -6,12 +6,12 @@ const client_manifest = {
     "file": "nuxt-icon.MfBulapQ.css",
     "src": "_!~{009}~.js"
   },
-  "_BkhG-6Ny.js": {
+  "_D1IXlLUx.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BkhG-6Ny.js",
+    "file": "D1IXlLUx.js",
     "name": "nuxt-icon",
     "imports": [
       "node_modules/.pnpm/nuxt@3.11.2_@unocss+reset@0.59.0_floating-vue@5.2.2_unocss@0.59.0_vite@5.2.8/node_modules/nuxt/dist/app/entry.js"
@@ -26,12 +26,12 @@ const client_manifest = {
     "prefetch": true,
     "preload": true
   },
-  "_C-zXMCN4.js": {
+  "_DdW9jacY.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "C-zXMCN4.js",
+    "file": "DdW9jacY.js",
     "name": "vue.f36acd1f",
     "imports": [
       "node_modules/.pnpm/nuxt@3.11.2_@unocss+reset@0.59.0_floating-vue@5.2.2_unocss@0.59.0_vite@5.2.8/node_modules/nuxt/dist/app/entry.js"
@@ -42,12 +42,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DPbhhte0.js",
+    "file": "Bl7rpvC8.js",
     "name": "location",
     "src": "assets/icons/location.svg",
     "isDynamicEntry": true,
     "imports": [
-      "_BkhG-6Ny.js",
+      "_D1IXlLUx.js",
       "node_modules/.pnpm/nuxt@3.11.2_@unocss+reset@0.59.0_floating-vue@5.2.2_unocss@0.59.0_vite@5.2.8/node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -56,12 +56,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CD3NLCI2.js",
+    "file": "BcnFe1Mw.js",
     "name": "phone",
     "src": "assets/icons/phone.svg",
     "isDynamicEntry": true,
     "imports": [
-      "_BkhG-6Ny.js",
+      "_D1IXlLUx.js",
       "node_modules/.pnpm/nuxt@3.11.2_@unocss+reset@0.59.0_floating-vue@5.2.2_unocss@0.59.0_vite@5.2.8/node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -70,12 +70,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "By6mHn6R.js",
+    "file": "B_yjWJWr.js",
     "name": "time",
     "src": "assets/icons/time.svg",
     "isDynamicEntry": true,
     "imports": [
-      "_BkhG-6Ny.js",
+      "_D1IXlLUx.js",
       "node_modules/.pnpm/nuxt@3.11.2_@unocss+reset@0.59.0_floating-vue@5.2.2_unocss@0.59.0_vite@5.2.8/node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -84,13 +84,13 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Dd5hJXbo.js",
+    "file": "DydnmMz-.js",
     "name": "error-404",
     "src": "node_modules/.pnpm/@nuxt+ui-templates@1.3.3/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
     "isDynamicEntry": true,
     "imports": [
       "node_modules/.pnpm/nuxt@3.11.2_@unocss+reset@0.59.0_floating-vue@5.2.2_unocss@0.59.0_vite@5.2.8/node_modules/nuxt/dist/app/entry.js",
-      "_C-zXMCN4.js"
+      "_DdW9jacY.js"
     ],
     "css": [
       "error-404.I9UGCG4-.css"
@@ -107,12 +107,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "TFQJ1a7s.js",
+    "file": "CzsUZcFw.js",
     "name": "error-500",
     "src": "node_modules/.pnpm/@nuxt+ui-templates@1.3.3/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
     "isDynamicEntry": true,
     "imports": [
-      "_C-zXMCN4.js",
+      "_DdW9jacY.js",
       "node_modules/.pnpm/nuxt@3.11.2_@unocss+reset@0.59.0_floating-vue@5.2.2_unocss@0.59.0_vite@5.2.8/node_modules/nuxt/dist/app/entry.js"
     ],
     "css": [
@@ -130,7 +130,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CeHAnd_N.js",
+    "file": "CLMgEFED.js",
     "name": "entry",
     "src": "node_modules/.pnpm/nuxt@3.11.2_@unocss+reset@0.59.0_floating-vue@5.2.2_unocss@0.59.0_vite@5.2.8/node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -153,7 +153,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BMi3TRwP.js",
+    "file": "cJy3hCiK.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
@@ -162,7 +162,7 @@ const client_manifest = {
       "assets/icons/location.svg",
       "assets/icons/time.svg",
       "assets/icons/phone.svg",
-      "_BkhG-6Ny.js"
+      "_D1IXlLUx.js"
     ],
     "css": [
       "index.NpRAb1lG.css"
