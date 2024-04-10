@@ -46,12 +46,12 @@ import PhoneSVG from '~/assets/icons/phone.svg'
       </div>
     </div>
     <img
-      src="/images/bg.jpg"
+      src="~/images/bg.jpg"
       class="w-full h-full object-cover absolute bottom-0 top-0 -z-1 blur"
     />
 
     <div class="flex flex-row mt-40 items-center justify-center mx-auto gap-20">
-      <img class="w-80" src="/images/door.png" />
+      <img class="w-80" src="./images/door.png" />
       <p class="max-w-180 text-center leading-normal text-2xl">
         Распахните двери к безупречному комфорту и безопасности с нашей помощью!
         <br />Мы - ваш надежный партнер в мире ремонта и обслуживания дверей.
