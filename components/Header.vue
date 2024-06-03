@@ -2,12 +2,14 @@
 import LocationSVG from '~/assets/icons/location.svg'
 import TimeSVG from '~/assets/icons/time.svg'
 import PhoneSVG from '~/assets/icons/phone.svg'
+
+import Logo from '~/assets/images/logo.png'
 </script>
 
 <template>
   <!-- class="bg-cover bg-center h-200"
     style="background-image: url(images/bg.jpg)" -->
-  <header class="relative h-300">
+  <header class="relative">
     <div
       class="flex flex-col gap-30 px-3.5 lg:(flex-row px-10) justify-between items-center max-w-360 mx-auto pt-10"
     >
@@ -27,7 +29,7 @@ import PhoneSVG from '~/assets/icons/phone.svg'
         </div>
       </div>
       <div class="">
-        <p class="text-xl">Fix My Doors</p>
+        <img class="w-40" :src="Logo" />
       </div>
 
       <div class="flex flex-col items-center lg:flex-row">
@@ -50,18 +52,16 @@ import PhoneSVG from '~/assets/icons/phone.svg'
       class="w-full h-full object-cover absolute bottom-0 top-0 -z-1 blur"
     />
 
-    <div class="flex flex-row mt-40 items-center justify-center mx-auto gap-20">
+    <div
+      class="flex flex-col mt-40 items-center justify-center mx-auto gap-20 lg:(flex-row px-10)"
+    >
       <img class="w-80" src="/images/door.png" />
-      <p class="max-w-180 text-center leading-normal text-2xl">
+      <p class="max-w-180 text-center leading-normal text-2xl px-8">
         Распахните двери к безупречному комфорту и безопасности с нашей помощью!
         <br />Мы - ваш надежный партнер в мире ремонта и обслуживания дверей.
         Независимо от того, сломался ли замок или требуется ремонт дверного
         полотна, наши высококвалифицированные специалисты готовы ответить на ваш
-        вызов. <br />
-        <br />
-        Позвоните нам по номеру
-        <b class="text-red text-4xl">+375 (29) 706-64-46</b>, и мы сделаем все
-        возможное, чтобы обеспечить вас надежной защитой и безупречным стилем.
+        вызов.
       </p>
     </div>
   </header>
@@ -77,10 +77,12 @@ import PhoneSVG from '~/assets/icons/phone.svg'
     transform: scale(0.8);
     opacity: 0.7;
   }
+
   50% {
     transform: scale(1.2);
     opacity: 1;
   }
+
   100% {
     transform: scale(0.8);
     opacity: 0.7;
