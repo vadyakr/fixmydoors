@@ -9,11 +9,11 @@
           href="tel:+375297066446"
           >+375 (29) 706-64-46</a
         >
+        <p>Viber, Telegram</p>
+
         <a href="mailto:fixmydoor@mail.ru" class="text-red"
           >fixmydoor@mail.ru</a
         >
-
-        <p>Viber, Telegram</p>
       </div>
       <div>
         <p>ИП Солонко Владислав Олегович</p>
