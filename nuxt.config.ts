@@ -4,10 +4,6 @@ export default defineNuxtConfig({
   modules: ['@unocss/nuxt', 'nuxt-svgo', 'nuxt-swiper'],
   css: ['~/styles/main.css'],
 
-  app: {
-    baseURL: 'fixmydoors', // Замените <repository-name> на имя вашего репозитория
-  },
-
   build: {
     transpile: ['trpc-nuxt'],
   },
