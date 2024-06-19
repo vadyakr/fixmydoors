@@ -6,7 +6,18 @@ useSeoMeta({
     'Мы специализируемся на профессиональном ремонте и установке дверей любой сложности. Закажите услуги у лучших специалистов!',
   ogDescription:
     'Мы специализируемся на профессиональном ремонте и установке дверей любой сложности. Закажите услуги у лучших специалистов!',
-  ogImage: 'images/logo.png',
+  ogImage: 'https://vadyakr.github.io/fixmydoors/images/logo.png',
+  ogImageWidth: '1200',
+  ogImageHeight: '630',
+  ogImageType: 'image/png',
+  ogType: 'website',
+
+  twitterTitle:
+    'Fix My Doors - Ваш надёжный партнёр в ремонте и установке дверей',
+  twitterDescription:
+    'Мы специализируемся на профессиональном ремонте и установке дверей любой сложности. Закажите услуги у лучших специалистов!',
+
+  twitterImage: 'https://vadyakr.github.io/fixmydoors/images/logo.png',
   twitterCard: 'summary_large_image',
 })
 </script>
