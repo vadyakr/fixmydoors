@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   css: ['~/styles/main.css'],
 
   app: {
-    baseURL: '/fixmydoors/',
+    baseURL: '/fixmydoors',
   },
 
   build: {
