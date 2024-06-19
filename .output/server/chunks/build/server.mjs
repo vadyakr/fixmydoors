@@ -5044,7 +5044,7 @@ const _routes = [
     meta: {},
     alias: [],
     redirect: void 0 ,
-    component: () => import('./index-DcSZf1vp.mjs').then((m) => m.default || m)
+    component: () => import('./index-CwQY1Y42.mjs').then((m) => m.default || m)
   }
 ];
 const _wrapIf = (component, props, slots) => {
@@ -5360,7 +5360,7 @@ const revive_payload_server_Ff9o21n1gx = /* @__PURE__ */ defineNuxtPlugin({
 });
 const LazySvgoLocation = defineAsyncComponent(() => import('./location-BnCtZxi_.mjs').then((r) => r["default"] || r.default || r));
 const LazySvgoPhone = defineAsyncComponent(() => import('./phone-BdenErA_.mjs').then((r) => r["default"] || r.default || r));
-const LazySvgoTime = defineAsyncComponent(() => import('./time-BD6nAuWQ.mjs').then((r) => r["default"] || r.default || r));
+const LazySvgoTime = defineAsyncComponent(() => import('./time-Cy_Cmgs3.mjs').then((r) => r["default"] || r.default || r));
 const lazyGlobalComponents = [
   ["SvgoLocation", LazySvgoLocation],
   ["SvgoPhone", LazySvgoPhone],
