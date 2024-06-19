@@ -5,6 +5,25 @@ export default defineNuxtConfig({
   css: ['~/styles/main.css'],
 
   app: {
+    head: {
+      title: 'Fix My Doors - Ваш надёжный партнёр в ремонте и установке дверей',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Мы специализируемся на профессиональном ремонте и установке дверей любой сложности. Закажите услуги у лучших специалистов!',
+        },
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: 'https://vadyakr.github.io/fixmydoors/images/logo.png',
+        },
+      ],
+      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    },
     baseURL: '/fixmydoors',
   },
 
