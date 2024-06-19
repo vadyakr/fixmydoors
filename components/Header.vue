@@ -40,7 +40,7 @@ import Logo from '~/assets/images/logo.png'
             вам всю необходимую помощь и ответим на все ваши вопросы.
           </p>
           <a
-            class="text-4xl font-600 text-red decoration-none flex mt-2 justify-center lg:justify-start"
+            class="text-4xl font-600 text-red decoration-none flex mt-2 justify-center text-center lg:justify-start"
             href="tel:+375297066446"
             >+375 (29) 706-64-46</a
           >
@@ -56,7 +56,7 @@ import Logo from '~/assets/images/logo.png'
       class="flex flex-col mt-40 items-center justify-center mx-auto gap-20 lg:(flex-row px-10)"
     >
       <img class="w-80" src="/images/door.png" />
-      <p class="max-w-180 text-center leading-normal text-2xl px-8">
+      <p class="max-w-180 w-full text-center leading-normal text-2xl">
         Распахните двери к безупречному комфорту и безопасности с нашей помощью!
         <br />Мы - ваш надежный партнер в мире ремонта и обслуживания дверей.
         Независимо от того, сломался ли замок или требуется ремонт дверного
