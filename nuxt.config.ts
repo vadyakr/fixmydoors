@@ -4,6 +4,10 @@ export default defineNuxtConfig({
   modules: ['@unocss/nuxt', 'nuxt-svgo', 'nuxt-swiper'],
   css: ['~/styles/main.css'],
 
+  app: {
+    baseURL: '/fixmydoors/',
+  },
+
   build: {
     transpile: ['trpc-nuxt'],
   },
