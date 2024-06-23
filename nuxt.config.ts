@@ -19,7 +19,7 @@ export default defineNuxtConfig({
         {
           hid: 'og:image',
           property: 'og:image',
-          content: 'https://vadyakr.github.io/fixmydoors/snipped.png',
+          content: '/snipped.png',
         },
         {
           hid: 'twitter:card',
@@ -31,9 +31,12 @@ export default defineNuxtConfig({
         {
           rel: 'icon',
           type: 'image/x-icon',
-          href: 'https://vadyakr.github.io/fixmydoors/favicon.ico',
+          href: '/favicon.ico',
         },
       ],
+      htmlAttrs: {
+        lang: 'ru',
+      },
     },
     baseURL: '/fixmydoors',
   },

@@ -72,6 +72,7 @@ const closeModal = () => {
       <div class="relative">
         <img
           :src="slide.link"
+          alt=""
           class="object-cover w-full cursor-pointer"
           :class="{ 'h-50': !resize, 'h-200': resize }"
           @click="openModal(true, slide.link)"

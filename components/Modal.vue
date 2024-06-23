@@ -48,6 +48,7 @@ const openModal = () => {
         >
           <img
             :src="link"
+            alt=""
             class="w-full h-[calc(100%_-_4rem)] object-contain"
           />
         </div>

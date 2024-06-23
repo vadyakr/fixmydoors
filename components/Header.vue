@@ -29,7 +29,7 @@ import Logo from '~/assets/images/logo.png'
         </div>
       </div>
       <div class="">
-        <img class="w-40" :src="Logo" />
+        <img alt="FixMyDoors" class="w-40" :src="Logo" />
       </div>
 
       <div class="flex flex-col items-center lg:flex-row">
@@ -49,13 +49,14 @@ import Logo from '~/assets/images/logo.png'
     </div>
     <img
       src="/images/bg.jpg"
+      alt=""
       class="w-full h-full object-cover absolute bottom-0 top-0 -z-1 blur"
     />
 
     <div
       class="flex flex-col mt-40 items-center justify-center mx-auto gap-20 lg:(flex-row px-10)"
     >
-      <img class="w-80" src="/images/door.png" />
+      <img class="w-80" alt="Door" src="/images/door.png" />
       <p class="max-w-180 w-full text-center leading-normal text-2xl">
         Распахните двери к безупречному комфорту и безопасности с нашей помощью!
         <br />Мы - ваш надежный партнер в мире ремонта и обслуживания дверей.

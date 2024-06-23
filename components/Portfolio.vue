@@ -113,14 +113,34 @@ const portfolio = [
     link: nineAfter,
   },
 ]
+
+const isOpenModal = ref(false)
+const linkRef = ref('')
+
+const openModal = (e: boolean, link?: string) => {
+  linkRef.value = link || ''
+  isOpenModal.value = e
+  if (e) {
+    document.body.style.overflow = 'hidden'
+  } else {
+  }
+}
+
+const closeModal = () => {
+  isOpenModal.value = false
+  document.body.style.overflow = ''
+}
 </script>
 
 <template>
   <div
     v-for="item in portfolio"
     :key="item.id"
-    class="max-w-75 w-full h-150 object-cover flex"
+    class="max-w-75 w-full h-150 object-cover flex cursor-pointer"
+    @click="openModal(true, item.link)"
   >
-    <img class="w-full h-full object-cover" :src="item.link" />
+    <img class="w-full h-full object-cover" alt="Portfolio" :src="item.link" />
   </div>
+
+  <Modal :is-open="isOpenModal" :link="linkRef" @click="closeModal()" />
 </template>
