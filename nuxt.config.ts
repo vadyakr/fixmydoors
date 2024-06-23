@@ -21,6 +21,11 @@ export default defineNuxtConfig({
           property: 'og:image',
           content: 'https://vadyakr.github.io/fixmydoors/snipped.png',
         },
+        {
+          hid: 'twitter:card',
+          property: 'twitter:card',
+          content: 'summary_large_image',
+        },
       ],
       link: [
         {
