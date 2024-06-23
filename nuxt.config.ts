@@ -19,10 +19,16 @@ export default defineNuxtConfig({
         {
           hid: 'og:image',
           property: 'og:image',
-          content: 'https://vadyakr.github.io/fixmydoors/images/logo.png',
+          content: 'https://vadyakr.github.io/fixmydoors/snipped.png',
         },
       ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+      link: [
+        {
+          rel: 'icon',
+          type: 'image/x-icon',
+          href: 'https://vadyakr.github.io/fixmydoors/favicon.ico',
+        },
+      ],
     },
     baseURL: '/fixmydoors',
   },
