@@ -58,7 +58,7 @@ export default defineNuxtConfig({
   },
 
   site: { 
-    url: '', 
+    url: 'https://fixmydoors.by/', 
     name: 'FixMyDoors',
     description: 'Fix My Doors - Ваш надёжный партнёр в ремонте дверей'
     }, 
