@@ -38,7 +38,6 @@ export default defineNuxtConfig({
         lang: 'ru',
       },
     },
-    baseURL: '/fixmydoors',
   },
 
   build: {
