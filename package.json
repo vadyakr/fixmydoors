@@ -11,6 +11,7 @@
     "deploy": "gh-pages -d .output"
   },
   "dependencies": {
+    "@nuxtjs/robots": "^4.1.11",
     "@unocss/reset": "^0.59.0",
     "axios": "^1.7.2",
     "nuxt": "^3.11.2",

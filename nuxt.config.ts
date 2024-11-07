@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@unocss/nuxt', 'nuxt-svgo', 'nuxt-swiper'],
+  modules: ['@unocss/nuxt', 'nuxt-svgo', 'nuxt-swiper', '@nuxtjs/robots'],
   css: ['~/styles/main.css'],
 
   app: {
@@ -42,6 +42,10 @@ export default defineNuxtConfig({
 
   build: {
     transpile: ['trpc-nuxt'],
+  },
+
+  robots: {
+    allow: ['/']
   },
 
   nitro: {
