@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@nuxtjs/robots": "^4.1.11",
+    "@nuxtjs/sitemap": "^6.1.5",
     "@unocss/reset": "^0.59.0",
     "axios": "^1.7.2",
     "nuxt": "^3.11.2",

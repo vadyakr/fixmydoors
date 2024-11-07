@@ -1,12 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@unocss/nuxt', 'nuxt-svgo', 'nuxt-swiper', '@nuxtjs/robots'],
+  modules: ['@unocss/nuxt', 'nuxt-svgo', 'nuxt-swiper', '@nuxtjs/robots', '@nuxtjs/sitemap'],
   css: ['~/styles/main.css'],
 
   app: {
     head: {
-      title: 'Fix My Doors - Ваш надёжный партнёр в ремонте и установке дверей',
+      title: 'Fix My Doors - Ваш надёжный партнёр в ремонте дверей',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -14,7 +14,7 @@ export default defineNuxtConfig({
           hid: 'description',
           name: 'description',
           content:
-            'Мы специализируемся на профессиональном ремонте и установке дверей любой сложности. Закажите услуги у лучших специалистов!',
+            'Мы специализируемся на профессиональном ремонте дверей любой сложности. Закажите услуги у лучших специалистов!',
         },
         {
           hid: 'og:image',
@@ -56,4 +56,10 @@ export default defineNuxtConfig({
       failOnError: false,
     },
   },
+
+  site: { 
+    url: '', 
+    name: 'FixMyDoors',
+    description: 'Fix My Doors - Ваш надёжный партнёр в ремонте дверей'
+    }, 
 })
