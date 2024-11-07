@@ -70,7 +70,7 @@ const closeModal = () => {
   >
     <SwiperSlide v-for="slide in data" :key="slide.id">
       <div class="relative">
-        <img
+       <NuxtImg loading="lazy" format="webp"
           :src="slide.link"
           alt=""
           class="object-cover w-full cursor-pointer"

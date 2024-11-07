@@ -1,16 +1,16 @@
 <script lang="ts" setup>
-import img11 from '@/assets/images/leather/200.png'
-import img12 from '@/assets/images/leather/201.png'
-import img13 from '@/assets/images/leather/202.png'
-import img14 from '@/assets/images/leather/203.png'
-import img15 from '@/assets/images/leather/204.png'
+import img11 from '/images/leather/200.png'
+import img12 from '/images/leather/201.png'
+import img13 from '/images/leather/202.png'
+import img14 from '/images/leather/203.png'
+import img15 from '/images/leather/204.png'
 
-import img16 from '@/assets/images/leather/205.png'
-import img17 from '@/assets/images/leather/206.png'
-import img18 from '@/assets/images/leather/207.png'
-import img19 from '@/assets/images/leather/208.png'
-import img20 from '@/assets/images/leather/209.png'
-import img21 from '@/assets/images/leather/210.png'
+import img16 from '/images/leather/205.png'
+import img17 from '/images/leather/206.png'
+import img18 from '/images/leather/207.png'
+import img19 from '/images/leather/208.png'
+import img20 from '/images/leather/209.png'
+import img21 from '/images/leather/210.png'
 
 const slides = [
   {

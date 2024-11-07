@@ -2,13 +2,9 @@
 import LocationSVG from '~/assets/icons/location.svg'
 import TimeSVG from '~/assets/icons/time.svg'
 import PhoneSVG from '~/assets/icons/phone.svg'
-
-import Logo from '~/assets/images/logo.png'
 </script>
 
 <template>
-  <!-- class="bg-cover bg-center h-200"
-    style="background-image: url(images/bg.jpg)" -->
   <header class="relative">
     <div
       class="flex flex-col gap-30 px-3.5 lg:(flex-row px-10) justify-between items-center max-w-360 mx-auto pt-10"
@@ -29,7 +25,13 @@ import Logo from '~/assets/images/logo.png'
         </div>
       </div>
       <div class="">
-        <img alt="FixMyDoors" class="w-40" :src="Logo" />
+        <NuxtImg
+          loading="lazy"
+          format="webp"
+          alt="FixMyDoors"
+          class="w-40"
+          src="images/logo.png"
+        />
       </div>
 
       <div class="flex flex-col items-center lg:flex-row">
@@ -47,17 +49,27 @@ import Logo from '~/assets/images/logo.png'
         </div>
       </div>
     </div>
-    <img
+    <NuxtImg
+      loading="lazy"
+      format="webp"
       src="/images/bg.jpg"
       alt=""
       class="w-full h-full object-cover absolute bottom-0 top-0 -z-1 blur"
     />
 
     <div
-      class="flex flex-col mt-40 items-center justify-center mx-auto gap-20 lg:(flex-row px-10)"
+      class="flex flex-col mt-40 items-center justify-center mx-auto gap-20 px-5 pb-10 lg:(flex-row px-10)"
     >
-      <img class="w-80" alt="Door" src="/images/door.png" />
-      <p class="max-w-180 w-full text-center leading-normal text-2xl">
+      <NuxtImg
+        loading="lazy"
+        format="webp"
+        class="w-80"
+        alt="Door"
+        src="/images/door.png"
+      />
+      <p
+        class="max-w-180 w-full text-center leading-normal text-2xl break-words"
+      >
         Распахните двери к безупречному комфорту и безопасности с нашей помощью!
         <br />Мы - ваш надежный партнер в мире ремонта и обслуживания дверей.
         Независимо от того, сломался ли замок или требуется ремонт дверного

@@ -1,12 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@unocss/nuxt', 'nuxt-svgo', 'nuxt-swiper', '@nuxtjs/robots', '@nuxtjs/sitemap'],
+  modules: ['@unocss/nuxt', 'nuxt-svgo', 'nuxt-swiper', '@nuxtjs/robots', '@nuxtjs/sitemap', '@nuxt/image', '@nuxtjs/seo'],
   css: ['~/styles/main.css'],
 
   app: {
     head: {
-      title: 'Fix My Doors - Ваш надёжный партнёр в ремонте дверей',
+      title: 'Профессиональный ремонт дверей и окон в Минске – Быстро и Надежно',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -14,8 +14,7 @@ export default defineNuxtConfig({
           hid: 'description',
           name: 'description',
           content:
-            'Мы специализируемся на профессиональном ремонте дверей любой сложности. Закажите услуги у лучших специалистов!',
-        },
+          'Профессиональный ремонт дверей и окон любой сложности в Минске. Надежные мастера, быстрый выезд и гарантия качества. Закажите услуги у лучших специалистов!',        },
         {
           hid: 'og:image',
           property: 'og:image',
@@ -60,6 +59,6 @@ export default defineNuxtConfig({
   site: { 
     url: 'https://fixmydoors.by/', 
     name: 'FixMyDoors',
-    description: 'Fix My Doors - Ваш надёжный партнёр в ремонте дверей'
-    }, 
+    description: 'Fix My Doors – надёжный выбор для ремонта дверей и окон в Минске'
+  }, 
 })

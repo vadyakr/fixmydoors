@@ -1,30 +1,30 @@
 <script lang="ts" setup>
-import one from '@/assets/images/portfolio/1.jpg'
-import oneAfter from '@/assets/images/portfolio/1-1.jpg'
+import one from '/images/portfolio/1.jpg'
+import oneAfter from '/images/portfolio/1-1.jpg'
 
-import two from '@/assets/images/portfolio/2.jpg'
-import twoAfter from '@/assets/images/portfolio/2-2.jpg'
+import two from '/images/portfolio/2.jpg'
+import twoAfter from '/images/portfolio/2-2.jpg'
 
-import three from '@/assets/images/portfolio/3.jpg'
-import threeAfter from '@/assets/images/portfolio/3-3.jpg'
+import three from '/images/portfolio/3.jpg'
+import threeAfter from '/images/portfolio/3-3.jpg'
 
-import four from '@/assets/images/portfolio/4.png'
-import fourAfter from '@/assets/images/portfolio/4-4.jpg'
+import four from '/images/portfolio/4.png'
+import fourAfter from '/images/portfolio/4-4.jpg'
 
-import five from '@/assets/images/portfolio/5.png'
-import fiveAfter from '@/assets/images/portfolio/5-5.jpeg'
+import five from '/images/portfolio/5.png'
+import fiveAfter from '/images/portfolio/5-5.jpeg'
 
-import six from '@/assets/images/portfolio/6.jpg'
-import sixAfter from '@/assets/images/portfolio/6-6.png'
+import six from '/images/portfolio/6.jpg'
+import sixAfter from '/images/portfolio/6-6.png'
 
-import seven from '@/assets/images/portfolio/7.jpeg'
-import sevenAfter from '@/assets/images/portfolio/7-7.png'
+import seven from '/images/portfolio/7.jpeg'
+import sevenAfter from '/images/portfolio/7-7.png'
 
-import eight from '@/assets/images/portfolio/8.png'
-import eightAfter from '@/assets/images/portfolio/8-8.jpeg'
+import eight from '/images/portfolio/8.png'
+import eightAfter from '/images/portfolio/8-8.jpeg'
 
-import nine from '@/assets/images/portfolio/9.jpg'
-import nineAfter from '@/assets/images/portfolio/9-9.jpg'
+import nine from '/images/portfolio/9.jpg'
+import nineAfter from '/images/portfolio/9-9.jpg'
 
 const portfolio = [
   {
@@ -139,7 +139,7 @@ const closeModal = () => {
     class="max-w-75 w-full h-150 object-cover flex cursor-pointer"
     @click="openModal(true, item.link)"
   >
-    <img class="w-full h-full object-cover" alt="Portfolio" :src="item.link" />
+    <NuxtImg loading="lazy" format="webp" class="w-full h-full object-cover" alt="Portfolio" :src="item.link" />
   </div>
 
   <Modal :is-open="isOpenModal" :link="linkRef" @click="closeModal()" />
