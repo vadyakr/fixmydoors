@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@unocss/nuxt', 'nuxt-svgo', 'nuxt-swiper', '@nuxtjs/robots', '@nuxtjs/sitemap', '@nuxt/image', '@nuxtjs/seo'],
+  modules: ['@unocss/nuxt', 'nuxt-svgo', 'nuxt-swiper', '@nuxtjs/robots', '@nuxtjs/sitemap', '@nuxt/image', '@nuxtjs/seo', 'nuxt-gtag'],
   css: ['~/styles/main.css'],
 
   app: {
@@ -61,4 +61,8 @@ export default defineNuxtConfig({
     name: 'FixMyDoors',
     description: 'Fix My Doors – надёжный выбор для ремонта дверей и окон в Минске'
   }, 
+
+  gtag: {
+    id: 'G-E9DCH4X3H9'
+  }
 })

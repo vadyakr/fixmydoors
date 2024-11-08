@@ -26,7 +26,7 @@
           <MaterialExamplesPln />
         </div>
       </div>
-      <div class="flex flex-col w-full">
+      <div v-if="false" class="flex flex-col w-full">
         <p class="pb-10 text-3xl mx-auto tracking-wide text-center">
           Образцы отделки дверей ДВП:
         </p>
