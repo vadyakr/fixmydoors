@@ -67,8 +67,12 @@ import PhoneSVG from '~/assets/icons/phone.svg'
         alt="Door"
         src="/images/door.png"
       />
+      
+      <div>
+        <h1>Профессиональный ремонт дверей и окон в Минске</h1>
+
       <p
-        class="max-w-180 w-full text-center leading-normal text-2xl break-words"
+        class="max-w-180 w-full text-center leading-normal text-xl break-words"
       >
         Распахните двери к безупречному комфорту и безопасности с нашей помощью!
         <br />Мы - ваш надежный партнер в мире ремонта и обслуживания дверей.
@@ -76,6 +80,8 @@ import PhoneSVG from '~/assets/icons/phone.svg'
         полотна, наши высококвалифицированные специалисты готовы ответить на ваш
         вызов.
       </p>
+    </div>
+
     </div>
   </header>
 </template>
