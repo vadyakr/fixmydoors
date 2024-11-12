@@ -25,6 +25,10 @@ export default defineNuxtConfig({
           property: 'twitter:card',
           content: 'summary_large_image',
         },
+        {
+          name: 'yandex-verification',
+          content: '34e8ef7aba113de7',
+        },
       ],
       link: [
         {
