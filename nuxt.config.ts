@@ -72,6 +72,5 @@ export default defineNuxtConfig({
 
   yandexMetrika: {
     id: '98851724',
-    // ...
   }
 })
