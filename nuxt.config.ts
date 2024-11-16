@@ -53,9 +53,7 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      // enabled by default with nuxt generate, not required
       crawlLinks: false,
-      // https://github.com/nuxt/nuxt/issues/22159
       failOnError: false,
     },
   },
