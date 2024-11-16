@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ['@unocss/nuxt', 'nuxt-svgo', 'nuxt-swiper', '@nuxtjs/robots', '@nuxtjs/sitemap', '@nuxt/image', '@nuxtjs/seo', 'nuxt-gtag'],
+  modules: ['@unocss/nuxt', 'nuxt-svgo', 'nuxt-swiper', '@nuxtjs/robots', '@nuxtjs/sitemap', '@nuxt/image', '@nuxtjs/seo', 'nuxt-gtag', 'yandex-metrika-module-nuxt3'],
   css: ['~/styles/main.css'],
 
   app: {
@@ -68,5 +68,10 @@ export default defineNuxtConfig({
 
   gtag: {
     id: 'G-E9DCH4X3H9'
+  },
+
+  yandexMetrika: {
+    id: '98851724',
+    // ...
   }
 })
