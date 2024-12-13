@@ -1,7 +1,9 @@
 <template>
   <Header />
   <section class="flex flex-col items-center py-10 px-4">
-    <h2 class="pb-10 text-3xl tracking-wide m-0">Услуги по ремонту дверей и окон в Минске</h2>
+    <h2 class="pb-10 text-3xl tracking-wide m-0">
+      Ремонт дверей и окон в Минске
+    </h2>
     <div class="w-full max-w-240">
       <PriceTable />
     </div>
